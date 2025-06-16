@@ -48,7 +48,10 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "lucide-react": "^0.263.1"
+    "react-router-dom": "^6.15.0",
+    "lucide-react": "^0.263.1",
+    "framer-motion": "^10.16.4",
+    "web-vitals": "^3.3.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
