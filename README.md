@@ -84,7 +84,7 @@ BRIDGES 3.0 is a cutting-edge intercultural leadership platform developed by **T
 
 ## 🏢 Community Partnerships
 
-### **Active Partnership Locations:**
+### **Possible Partnership Locations:**
 - **Little Haiti Community Center** - Haitian integration programs
 - **Miramar Community Center** - Rohingya community support
 - **Homestead Community Center** - Venezuelan/Latin American services
@@ -169,7 +169,7 @@ npm run deploy
 **🏛️ Institution:** Stanford International Policy & Governance  
 **🌍 Program:** UNESCO Intercultural Leadership Program  
 **📱 LinkedIn:** Connect for collaboration opportunities  
-**🔗 GitHub:** [@your-username](https://github.com/Tarruckwheeler)
+**🔗 GitHub:** [@Tarruck](https://github.com/Tarruckwheeler)
 
 ### **Community Engagement:**
 - **Local Coordinator:** Available for community meetings
@@ -179,7 +179,7 @@ npm run deploy
 ## 🏆 Recognition & Impact
 
 ### **Awards & Recognition:**
-- **Jack Kent Cooke Grad Scholship** 2025 Finalist
+- **Jack Kent Cooke Grad Scholarship** 2025 Finalist
 - **Morton Research Fellowship** Fellowship Recipient
 - **James L. Watt Service Award** - Palm Beach County
 - **2025 Distinguished Student Award** - Florida Atlantic University
@@ -191,13 +191,13 @@ npm run deploy
 
 ## 🔮 Program Roadmap
 
-### **Phase 1: South Florida Foundation** (Current)
+### **Phase 1: South Florida Foundation** (Current June 2025)
 - ✅ 13-language platform deployment
 - ✅ Community partnership establishment  
 - ✅ UNESCO program integration
 - ✅ Academic research framework
 
-### **Phase 2: Possible Program Expansion** (2024 Q3-Q4)
+### **Phase 2: Possible Program Expansion** (2025 Q3-Q4)
 - 🔄 Additional Florida cities integration
 - 🔄 New refugee community languages
 - 🔄 Enhanced AI cultural intelligence
