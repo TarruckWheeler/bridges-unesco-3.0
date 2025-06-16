@@ -5,11 +5,82 @@
  * Program: UNESCO Intercultural Leadership Program
  * Focus: South Florida Refugee Community Integration
  */
-
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+
+// Basic App Component (inline to avoid import issues)
+function App() {
+  return (
+    <div style={{
+      minHeight: '100vh',
+      background: 'linear-gradient(to bottom right, #dbeafe, #f3e8ff)',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: '1rem',
+      fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif'
+    }}>
+      <div style={{ textAlign: 'center', maxWidth: '800px' }}>
+        <div style={{ marginBottom: '1.5rem' }}>
+          <h1 style={{ 
+            fontSize: '3rem', 
+            fontWeight: 'bold', 
+            color: '#1f2937', 
+            marginBottom: '0.5rem' 
+          }}>
+            🏛️ BRIDGES UNESCO 3.0
+          </h1>
+          <p style={{ color: '#2563eb', fontSize: '0.875rem' }}>
+            Created by Tarruck Wheeler
+          </p>
+        </div>
+        
+        <div style={{
+          backgroundColor: 'white',
+          padding: '2rem',
+          borderRadius: '0.75rem',
+          boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+          marginBottom: '1.5rem'
+        }}>
+          <h2 style={{ 
+            fontSize: '1.5rem', 
+            fontWeight: 'bold', 
+            color: '#1f2937', 
+            marginBottom: '1rem' 
+          }}>
+            UNESCO Digital Bridges
+          </h2>
+          <p style={{ color: '#6b7280', marginBottom: '1rem' }}>
+            Refugee Support Platform for South Florida Communities
+          </p>
+          <p style={{ color: '#6b7280', fontSize: '0.875rem' }}>
+            Building bridges across communities through technology
+          </p>
+        </div>
+        
+        <div style={{
+          backgroundColor: 'white',
+          padding: '1rem',
+          borderRadius: '0.5rem',
+          boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)'
+        }}>
+          <h3 style={{ fontWeight: '600', color: '#1f2937', marginBottom: '0.5rem' }}>
+            📞 Contact Information
+          </h3>
+          <p style={{ fontSize: '0.875rem', color: '#6b7280', marginBottom: '0.25rem' }}>
+            Project Creator: Tarruck Wheeler
+          </p>
+          <p style={{ fontSize: '0.875rem', color: '#2563eb', marginBottom: '0.25rem' }}>
+            📧 tarruck@stanford.edu
+          </p>
+          <p style={{ fontSize: '0.75rem', color: '#9ca3af' }}>
+            Stanford International Policy & Governance
+          </p>
+        </div>
+      </div>
+    </div>
+  )
+}
 
 // Performance monitoring (development only)
 if (import.meta.env.DEV) {
@@ -17,16 +88,6 @@ if (import.meta.env.DEV) {
   console.log('📧 Contact: tarruck@stanford.edu');
   console.log('🌍 UNESCO Intercultural Leadership Program');
   console.log('📍 Focus: South Florida Refugee Communities');
-  
-  import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-    getCLS(console.log);
-    getFID(console.log);
-    getFCP(console.log);
-    getLCP(console.log);
-    getTTFB(console.log);
-  }).catch(() => {
-    // web-vitals not available, continue without monitoring
-  });
 }
 
 // Enhanced Error boundary for UNESCO program
@@ -35,39 +96,71 @@ class UNESCOErrorBoundary extends React.Component {
     super(props);
     this.state = { hasError: false };
   }
-
+  
   static getDerivedStateFromError(error) {
     return { hasError: true };
   }
-
+  
   componentDidCatch(error, errorInfo) {
     console.error('BRIDGES UNESCO Error:', error, errorInfo);
     console.log('Please report issues to: tarruck@stanford.edu');
     // In production, send to error reporting service
   }
-
+  
   render() {
     if (this.state.hasError) {
       return (
-        <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center p-4">
-          <div className="text-center max-w-md">
-            <div className="mb-6">
-              <h1 className="text-3xl font-bold text-gray-800 mb-2">🏛️ BRIDGES UNESCO 3.0</h1>
-              <p className="text-blue-600 text-sm">Created by Tarruck Wheeler</p>
+        <div style={{
+          minHeight: '100vh',
+          background: 'linear-gradient(to bottom right, #dbeafe, #f3e8ff)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '1rem'
+        }}>
+          <div style={{ textAlign: 'center', maxWidth: '28rem' }}>
+            <div style={{ marginBottom: '1.5rem' }}>
+              <h1 style={{ fontSize: '1.875rem', fontWeight: 'bold', color: '#1f2937', marginBottom: '0.5rem' }}>
+                🏛️ BRIDGES UNESCO 3.0
+              </h1>
+              <p style={{ color: '#2563eb', fontSize: '0.875rem' }}>Created by Tarruck Wheeler</p>
             </div>
-            <h2 className="text-xl font-bold text-gray-800 mb-4">Something went wrong</h2>
-            <p className="text-gray-600 mb-6">We're sorry, but something unexpected happened with the UNESCO platform.</p>
             
-            <div className="bg-white p-4 rounded-lg shadow-md mb-6">
-              <h3 className="font-semibold text-gray-800 mb-2">📞 Contact Support</h3>
-              <p className="text-sm text-gray-600 mb-1">Project Creator: Tarruck Wheeler</p>
-              <p className="text-sm text-blue-600 mb-1">📧 tarruck@stanford.edu</p>
-              <p className="text-xs text-gray-500">Stanford International Policy & Governance</p>
+            <h2 style={{ fontSize: '1.25rem', fontWeight: 'bold', color: '#1f2937', marginBottom: '1rem' }}>
+              Something went wrong
+            </h2>
+            <p style={{ color: '#6b7280', marginBottom: '1.5rem' }}>
+              We're sorry, but something unexpected happened with the UNESCO platform.
+            </p>
+            
+            <div style={{
+              backgroundColor: 'white',
+              padding: '1rem',
+              borderRadius: '0.5rem',
+              boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+              marginBottom: '1.5rem'
+            }}>
+              <h3 style={{ fontWeight: '600', color: '#1f2937', marginBottom: '0.5rem' }}>📞 Contact Support</h3>
+              <p style={{ fontSize: '0.875rem', color: '#6b7280', marginBottom: '0.25rem' }}>Project Creator: Tarruck Wheeler</p>
+              <p style={{ fontSize: '0.875rem', color: '#2563eb', marginBottom: '0.25rem' }}>📧 tarruck@stanford.edu</p>
+              <p style={{ fontSize: '0.75rem', color: '#9ca3af' }}>Stanford International Policy & Governance</p>
             </div>
             
             <button 
               onClick={() => window.location.reload()} 
-              className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all transform hover:scale-105 shadow-lg"
+              style={{
+                background: 'linear-gradient(to right, #3b82f6, #8b5cf6)',
+                color: 'white',
+                padding: '0.75rem 1.5rem',
+                borderRadius: '0.5rem',
+                border: 'none',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                transform: 'scale(1)',
+                boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)'
+              }}
+              onMouseOver={(e) => e.target.style.transform = 'scale(1.05)'}
+              onMouseOut={(e) => e.target.style.transform = 'scale(1)'}
             >
               🔄 Reload Platform
             </button>
@@ -75,7 +168,6 @@ class UNESCOErrorBoundary extends React.Component {
         </div>
       );
     }
-
     return this.props.children;
   }
 }
