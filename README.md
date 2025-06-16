@@ -78,10 +78,9 @@ BRIDGES 3.0 is a cutting-edge intercultural leadership platform developed by **T
 8. **🇦🇫 پښتو** - Afghan Pashto speakers (RTL support)  
 9. **🇺🇦 Українська** - Ukrainian refugees (recent arrivals)
 10. **🇷🇺 Русский** - Russian speakers from various regions
-11. **🇲🇲 မြန်မာ** - Burmese community
-12. **🇲🇲 ကညီကျိာ်** - Karen ethnic minority from Myanmar
-13. **🇲🇲 রোহিঙ্গা** - Rohingya community (Miramar-specific)
-14. **🇪🇹 አማርኛ** - Ethiopian Amharic speakers
+11. **🇲🇲 ကညီကျိာ်** - Karen ethnic minority from Myanmar
+12. **🇲🇲 রোহিঙ্গা** - Rohingya community (Miramar-specific)
+13. **🇪🇹 አማርኛ** - Ethiopian Amharic speakers
 
 ## 🏢 Community Partnerships
 
@@ -92,7 +91,7 @@ BRIDGES 3.0 is a cutting-edge intercultural leadership platform developed by **T
 - **FIU Climate Resilience Center** - Environmental justice dialogues
 - **Miami-Dade School Board** - Educational access initiatives
 
-### **Partner Organizations:**
+### **Possible Future Partner Organizations:**
 - **Sant La Haitian Neighborhood Center**
 - **Women's Fund Miami-Dade**
 - **FIU Climate Resilience Center**
@@ -170,26 +169,25 @@ npm run deploy
 **🏛️ Institution:** Stanford International Policy & Governance  
 **🌍 Program:** UNESCO Intercultural Leadership Program  
 **📱 LinkedIn:** Connect for collaboration opportunities  
-**🔗 GitHub:** [@your-username](https://github.com/YOUR_USERNAME)
+**🔗 GitHub:** [@your-username](https://github.com/Tarruckwheeler)
 
 ### **Community Engagement:**
 - **Local Coordinator:** Available for community meetings
 - **Cultural Consultants:** Native speakers for each language community
-- **Academic Advisors:** Stanford faculty oversight
 - **UNESCO Liaison:** Direct connection to UNESCO headquarters
 
 ## 🏆 Recognition & Impact
 
 ### **Awards & Recognition:**
-- **UNESCO Innovation Award** 2024 Finalist
-- **Stanford Social Innovation** Fellowship Recipient
-- **Community Choice Award** - Miami-Dade County
-- **Digital Inclusion Excellence** - Florida International University
+- **Jack Kent Cooke Grad Scholship** 2025 Finalist
+- **Morton Research Fellowship** Fellowship Recipient
+- **James L. Watt Service Award** - Palm Beach County
+- **2025 Distinguished Student Award** - Florida Atlantic University
 
 ### **Research Publications by Tarruck Wheeler:**
-- *"Technology-Enabled Intercultural Dialogue"* - UNESCO Journal
-- *"Community Integration Through Digital Platforms"* - Stanford Research
-- *"Measuring Social Cohesion in Refugee Communities"* - Academic Conference
+- *"Digital Vaults and Virtual Locks: The Imperative of Password Security in the Modern Era"* - Library of Congress
+- *"The Omena Movement and the Power of Digitization in Addressing Emotional Abuse in Madagascar"* - Social Innovations Journal
+- *"Measuring AI Generated disinformation"* - Academic Conference
 
 ## 🔮 Program Roadmap
 
@@ -199,7 +197,7 @@ npm run deploy
 - ✅ UNESCO program integration
 - ✅ Academic research framework
 
-### **Phase 2: Program Expansion** (2024 Q3-Q4)
+### **Phase 2: Possible Program Expansion** (2024 Q3-Q4)
 - 🔄 Additional Florida cities integration
 - 🔄 New refugee community languages
 - 🔄 Enhanced AI cultural intelligence
