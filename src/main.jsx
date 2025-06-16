@@ -7,80 +7,7 @@
  */
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
-// Basic App Component (inline to avoid import issues)
-function App() {
-  return (
-    <div style={{
-      minHeight: '100vh',
-      background: 'linear-gradient(to bottom right, #dbeafe, #f3e8ff)',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: '1rem',
-      fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif'
-    }}>
-      <div style={{ textAlign: 'center', maxWidth: '800px' }}>
-        <div style={{ marginBottom: '1.5rem' }}>
-          <h1 style={{ 
-            fontSize: '3rem', 
-            fontWeight: 'bold', 
-            color: '#1f2937', 
-            marginBottom: '0.5rem' 
-          }}>
-            🏛️ BRIDGES UNESCO 3.0
-          </h1>
-          <p style={{ color: '#2563eb', fontSize: '0.875rem' }}>
-            Created by Tarruck Wheeler
-          </p>
-        </div>
-        
-        <div style={{
-          backgroundColor: 'white',
-          padding: '2rem',
-          borderRadius: '0.75rem',
-          boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-          marginBottom: '1.5rem'
-        }}>
-          <h2 style={{ 
-            fontSize: '1.5rem', 
-            fontWeight: 'bold', 
-            color: '#1f2937', 
-            marginBottom: '1rem' 
-          }}>
-            UNESCO Digital Bridges
-          </h2>
-          <p style={{ color: '#6b7280', marginBottom: '1rem' }}>
-            Refugee Support Platform for South Florida Communities
-          </p>
-          <p style={{ color: '#6b7280', fontSize: '0.875rem' }}>
-            Building bridges across communities through technology
-          </p>
-        </div>
-        
-        <div style={{
-          backgroundColor: 'white',
-          padding: '1rem',
-          borderRadius: '0.5rem',
-          boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)'
-        }}>
-          <h3 style={{ fontWeight: '600', color: '#1f2937', marginBottom: '0.5rem' }}>
-            📞 Contact Information
-          </h3>
-          <p style={{ fontSize: '0.875rem', color: '#6b7280', marginBottom: '0.25rem' }}>
-            Project Creator: Tarruck Wheeler
-          </p>
-          <p style={{ fontSize: '0.875rem', color: '#2563eb', marginBottom: '0.25rem' }}>
-            📧 tarruck@stanford.edu
-          </p>
-          <p style={{ fontSize: '0.75rem', color: '#9ca3af' }}>
-            Stanford International Policy & Governance
-          </p>
-        </div>
-      </div>
-    </div>
-  )
-}
+import App from './App.js'
 
 // Performance monitoring (development only)
 if (import.meta.env.DEV) {
@@ -104,7 +31,6 @@ class UNESCOErrorBoundary extends React.Component {
   componentDidCatch(error, errorInfo) {
     console.error('BRIDGES UNESCO Error:', error, errorInfo);
     console.log('Please report issues to: tarruck@stanford.edu');
-    // In production, send to error reporting service
   }
   
   render() {
@@ -116,7 +42,8 @@ class UNESCOErrorBoundary extends React.Component {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          padding: '1rem'
+          padding: '1rem',
+          fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif'
         }}>
           <div style={{ textAlign: 'center', maxWidth: '28rem' }}>
             <div style={{ marginBottom: '1.5rem' }}>
@@ -156,11 +83,8 @@ class UNESCOErrorBoundary extends React.Component {
                 border: 'none',
                 cursor: 'pointer',
                 transition: 'all 0.2s',
-                transform: 'scale(1)',
                 boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)'
               }}
-              onMouseOver={(e) => e.target.style.transform = 'scale(1.05)'}
-              onMouseOut={(e) => e.target.style.transform = 'scale(1)'}
             >
               🔄 Reload Platform
             </button>
